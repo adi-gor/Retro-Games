@@ -31,3 +31,7 @@ if (pacmanScore != null)
     score += parseInt(pacmanScore);
 }
 scoreDisplay.innerHTML = score;
+function clearScore() {
+    localStorage.clear();
+    location.reload();
+}

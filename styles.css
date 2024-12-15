@@ -18,6 +18,12 @@ img {
     
 }
 
+button {
+    background: rgb(7, 7, 183);
+    color: white;
+    
+}
+
 #score, .TotalScore {
     display: inline;
 }
