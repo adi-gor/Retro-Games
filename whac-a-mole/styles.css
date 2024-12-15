@@ -10,15 +10,17 @@ body {
 }
 
 .grid {
-	width: 605px;
-	height: 605px;
+	width: 405px;
+	height: 205px;
 	display: flex;
+	align-items: center;
+	justify-content: center;
 	flex-wrap: wrap;
 }
 
 .square {
-	height: 200px;
-	width: 200px;
+	height: 100px;
+	width: 100px;
 	border: solid black 1px;
 }
 
