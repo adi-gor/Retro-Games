@@ -42,6 +42,7 @@ function countDown() {
  if (currentTime == 0) {
    clearInterval(countDownTimerId)
    clearInterval(timerId)
+   localStorage.setItem('whacamoleScore', result);
    alert('GAME OVER! Your final score is ' + result)
  }
 

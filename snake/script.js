@@ -89,6 +89,7 @@ if (
 	cells[currentSnake[0] + direction].classList.contains("snake") // hits itself
   ) {
 	grid.classList.add("shake");
+	localStorage.setItem('snakeScore', score);
 	clearInterval(interval);
 	return;
   }

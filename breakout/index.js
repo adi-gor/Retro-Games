@@ -131,6 +131,7 @@ function checkForCollisions() {
       scoreDisplay.innerHTML = score
       if (blocks.length == 0) {
         scoreDisplay.innerHTML = 'You Win!'
+        localStorage.setItem('breakoutScore', score);
         clearInterval(timerId)
         document.removeEventListener('keydown', moveUser)
       }

@@ -227,6 +227,7 @@ document.addEventListener('DOMContentLoaded', () => {
   //check for a win - more is when this score is reached
   function checkForWin() {
     if (score === 274) {
+      localStorage.setItem('pacmanScore', score);
       ghosts.forEach(ghost => clearInterval(ghost.timerId))
       document.removeEventListener('keyup', movePacman)
       setTimeout(function(){ alert("You have WON!"); }, 500)
