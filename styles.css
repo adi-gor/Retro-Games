@@ -12,8 +12,12 @@ a {
 }
 
 img {
-    width: 214vh;
+    width: 211vh;
     height: 41vh;
     
     
+}
+
+#score, .TotalScore {
+    display: inline;
 }
