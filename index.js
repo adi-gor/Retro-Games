@@ -30,6 +30,7 @@ if (pacmanScore != null)
 {
     score += parseInt(pacmanScore);
 }
+console.log(score);
 scoreDisplay.innerHTML = score;
 function reload() {
     location.reload();
