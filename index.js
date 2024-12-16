@@ -25,6 +25,7 @@ if (spaceinvadersScore != null)
 if (snakeScore != null)
 {
     score += parseInt(snakeScore);
+    location.reload();
 }
 if (pacmanScore != null)
 {
