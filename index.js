@@ -31,6 +31,9 @@ if (pacmanScore != null)
     score += parseInt(pacmanScore);
 }
 scoreDisplay.innerHTML = score;
+scoreDisplay.addEventListener("change", (event)  => {
+    location.reload();
+})
 function clearScore() {
     localStorage.clear();
     location.reload();
