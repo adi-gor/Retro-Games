@@ -31,7 +31,7 @@ if (pacmanScore != null)
     score += parseInt(pacmanScore);
 }
 scoreDisplay.innerHTML = score;
-scoreDisplay.addEventListener("change", (event)  => {
+scoreDisplay.addEventListener("change", (_event)  => {
     location.replace(location.href);
 })
 function clearScore() {
