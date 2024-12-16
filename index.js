@@ -32,7 +32,7 @@ if (pacmanScore != null)
 }
 scoreDisplay.innerHTML = score;
 scoreDisplay.addEventListener("change", (event)  => {
-    location.reload();
+    location.replace(location.href);
 })
 function clearScore() {
     localStorage.clear();
