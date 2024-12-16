@@ -32,7 +32,7 @@ if (pacmanScore != null)
 }
 scoreDisplay.innerHTML = score;
 function reload() {
-    history.go(0);
+    window.location.href = window.location.href;
 }
 function clearScore() {
     localStorage.clear();
