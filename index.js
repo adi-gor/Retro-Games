@@ -25,13 +25,13 @@ if (spaceinvadersScore != null)
 if (snakeScore != null)
 {
     score += parseInt(snakeScore);
-    location.reload();
 }
 if (pacmanScore != null)
 {
     score += parseInt(pacmanScore);
 }
 scoreDisplay.innerHTML = score;
+location.reload();
 function clearScore() {
     localStorage.clear();
     location.reload();
